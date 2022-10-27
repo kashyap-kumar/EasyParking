@@ -34,7 +34,7 @@ button{
   text-transform: uppercase;
   color: rgb(33, 36, 49);
   border-radius: 3px;
-
+  cursor: pointer;
   box-shadow: 2px 5px rgb(33, 36, 49);
 }
 button:active{
@@ -44,11 +44,18 @@ button:active{
 
 /* ===== Header Component */
 .app-name{
-  color: rgba(33, 36, 49, 0.5);
+  color: rgba(33, 36, 49, 0.7);
   text-align: center;
   padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.app-logo {
+  height: 50px;
+  margin-right: 8px;
+  pointer-events: none;
+}
 
 /* ===== Form Component ===== */
 .form-component{
